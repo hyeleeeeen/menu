@@ -15,7 +15,12 @@ const createList = (t) => { // 배열의 각 요소를 forEach를 통해 뿌려�
     const menuItem = document.createElement("li"); // li 태그 생성
     menuItem.textContent = v; // 생성한 태그에 배열의 요소를 입력하기
     $mainList.append(menuItem); // 부모태그에 붙여넣기
+    
   });
+  const word = document.createElement("p")
+    word.textContent = `⭐절대로 후회하는 일 없게 하겠습니다⭐`;
+    word.style.cssText = "font-size: 3rem; text-align: center; "
+    $mainList.append(word);
 };
 
 const menuChoiceBtn = (e) => {

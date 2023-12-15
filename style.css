@@ -9,19 +9,22 @@ body {
 
 header {
   text-align: center;
-  padding: 1em;
+
   border: 2px solid black;
+  height: 15rem;
 }
 
 h1 {
-  margin: 0;
+  font-size:5rem;
 }
-
 nav {
   border: 4px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 10rem;
+ 
+  
 }
 
 #navList {
@@ -29,6 +32,7 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  font-size: 3rem;
 }
 
 #mainList {
@@ -37,12 +41,12 @@ nav {
 
 #mainList > li {
   display: flex;
-  width: 100%;
-  height: 50px;
+  height: 8rem;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  margin-top: 15px;
+  margin-top: 4rem;
+  font-size: 3rem;
 
 }
 
@@ -62,5 +66,7 @@ nav {
 
 #acc {
   width: 100%;
+  text-align: center;
+  font-size: 2.8rem;
   
 }
