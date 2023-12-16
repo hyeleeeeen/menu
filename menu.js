@@ -8,7 +8,7 @@ const $mainList = document.getElementById("mainList");
 const meals = ["뚜촌샤브샤브", "뚜볶이", "뚤리오올리오", "뚜치볶음밥"];
 const sides = ["만뚜", "감자뚜김", "뚜포", "뚜과자"];
 const drinks = ["진로", "화요", "테라", "콜라"];
-const bell = ["물", "티슈", "물티슈", "집갈래요"];
+const bell = ["물", "티슈", "물티슈", "Sing a Song"];
 
 const createList = (t) => { // 배열의 각 요소를 forEach를 통해 뿌려주기
   t.forEach((v) => {
