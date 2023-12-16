@@ -12,10 +12,11 @@ header {
   border: 2px solid;
   height: 15rem;
   background-image: url("./carol.jpg");
+  
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   text-shadow: -1px 0 #000, 0 5px #000, 5px 0 #000, 0 -1px #000;
   color: white;
 }
@@ -87,4 +88,5 @@ button {
   height: 5.5rem;
   font-size: 1.6rem;
   margin-right: 1.5rem;
+  color: black;
 }
