@@ -84,9 +84,10 @@ nav {
 
 button {
   border-radius: 50%;
-  width: 6rem;
+  width: 7rem;
   height: 5.5rem;
   font-size: 1.6rem;
   margin-right: 1.5rem;
   color: black;
+  border : none;
 }
